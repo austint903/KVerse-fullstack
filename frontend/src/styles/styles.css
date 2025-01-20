@@ -1,0 +1,95 @@
+.button {
+    font-family: 'Roboto', sans-serif; 
+ 
+    background-color: #6CD4FF; 
+    color: rgb(96, 94, 94);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.background-color{
+    background-color: #5D576B;
+}
+
+h4 {
+    text-align: center;
+  }
+
+h2{
+    text-align: center;
+}
+
+.logout-button {
+    position: absolute; 
+    top: 10px;
+    right: 10px; 
+    padding: 10px 15px; 
+    margin-right:5px;
+    background-color: #f44336; 
+    color: white; 
+    border: none; 
+    border-radius: 12px; 
+    cursor: pointer; 
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
+  .logout-button:hover{
+    background-color: #d0271b;
+    transform:scale(1.03)
+  }
+
+
+.ai-button{
+    margin-top: 10px;
+    background-color:#D496A7;
+    border: none;
+    border-radius: 112px;
+    padding:10px 25px;
+    font-size:14px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    color:#ffffff
+}
+.ai-button:hover{
+    transform:scale(1.03);
+    background-color:#ce6a85;
+}
+
+.ai-input{
+    border-radius: 12px;
+    padding: 6px 13px;
+}
+
+
+.top-left-buttons {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    gap: 10px;
+  }
+  
+.top-left-buttons button {
+    padding: 9px 13px;
+    background-color: #D496A7;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 10px;
+  }
+  
+.top-left-buttons button:hover {
+    background-color: #ce6a85;
+    transform: scale(1.03)
+  }
+  

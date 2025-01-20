@@ -1,0 +1,103 @@
+.note-container {
+  position: relative;
+  background-color: #F1DEDE;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 15px auto; 
+  max-width: 320px;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+  
+.note-container:hover {
+    transform: translateY(-5px);
+  }
+  
+.note-date {
+    position: absolute;
+    top: 10px; 
+    right: 15px; 
+    font-size: 0.8em;
+    color: #888;
+  }
+  
+.note-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+    margin-top: 20px; 
+  }
+  
+.note-content {
+    font-size: 1em;
+    color: #555;
+    margin: 10px 0;
+    line-height: 1.4;
+  }
+  
+.delete-button {
+    background-color: #6b6657;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+.delete-button:hover {
+    background-color: #A29BB6;
+    transform: scale(1.03)
+  }
+
+.note-form {
+    width: 190px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    margin: 15px auto; 
+    background-color: #FFD5C2;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 5px; 
+}
+
+.note-form label {
+    font-size: 14px;
+    color: #333;
+    margin-left: 8px; 
+    margin-top: 8px; 
+    font-weight: bold;
+    
+}
+
+.note-form input[type="text"],
+.note-form textarea {
+    width: calc(100% - 20px); 
+     
+    border: 1px solid #acaaaa;
+    border-radius: 12px;
+    font-size: 12px;
+    box-sizing: border-box;
+    background-color: #FFD5C2;
+    padding: 8px; 
+    height: 28px;
+}
+
+.note-submit {
+    margin: 8px 8px 5px 8px; 
+    padding: 8px 12px; 
+    font-size: 10px; 
+    color: white; 
+    background-color: #D496A7; 
+    border: none; 
+    border-radius: 10px;
+    cursor: pointer; 
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2); 
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.note-submit:hover {
+    background-color: #ce6a85; 
+    transform:scale(1.03)
+}
